@@ -1,0 +1,23 @@
+# Nama toko
+print("======Selamat Datang di Pizza Martine======")
+# List menu dan harga
+print("Menu:                     Prize:")
+print("Frankfurter BBQ           Rp. 75.000")
+print("Meat Monsta               Rp. 80.000")
+print("Super Supreme             Rp. 50.000")
+print("Super Supreme Chicken     Rp. 50.000")
+
+Topping_Pizza = input ("Pilih Menu :")
+print("Crust:                    Prize:")
+print("PAN                           GRATIS")
+print("Stuffed crust cheese      Rp. 10.000")
+print("Stuffed crust sausage     Rp. 14.000")
+print("Cheese bites              Rp. 12.000")
+print("Crown crust               Rp. 11.000")
+
+Crust_Pizza = input ("Pilih Crust :")
+print("Size:                     Prize:")
+print("Personal                      GRATIS")
+print("Reguler                   Rp. 62.000")
+print("Large                     Rp. 94.000")
+print("Extra Large               Rp. 115.000 ")
