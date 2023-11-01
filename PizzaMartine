@@ -50,3 +50,30 @@ elif Crust_Pizza == "Crown crust" :
 else:
     print("Jenis Crust tidak valid.")
     exit()   
+
+# Biaya ukuran
+if Size_Pizza == "Personal" :
+   harga_size = 0
+elif Size_Pizza == "Reguler" :
+   harga_size = 62000
+elif Size_Pizza == "Large" :
+   harga_size = 94000
+elif Size_Pizza == "Extra Large" :
+   harga_size = 115000
+else:
+    print("Ukuran pizza tidak valid.")
+    exit()   
+# Biaya tambahan cheese
+if Ekstra_Cheese == "Yes" :
+    Extra_Fee = 13000
+elif Ekstra_Cheese == "No" :
+    Extra_Fee = 0
+else: 
+    print ("Pesanan tidak valid")
+    exit()
+    
+#Total biaya
+total_biaya = harga_pizza + harga_crust + harga_size + Extra_Fee
+# Menampilkan pesanan dan total biaya
+print("Thank you for choosing Pizza Martine Delivery!")
+print("You final bill will be : Rp", int(total_biaya))
