@@ -24,3 +24,29 @@ print("Extra Large               Rp. 115.000 ")
 
 Size_Pizza = input("Pilih size pizza :")
 Ekstra_Cheese = input("Extra Fee Rp. 13.000 untuk Extra Cheese (Yes/No) : ")
+#Toping Pizza
+if Topping_Pizza == "Frankfurter BBQ" :
+    harga_pizza = 75000
+elif Topping_Pizza == "Meat Monsta" :
+    harga_pizza = 80000
+elif Topping_Pizza == "Super Supreme" :
+    harga_pizza = 50000
+elif Topping_Pizza == "Super Supreme Chicken" :
+    harga_pizza = 50000
+else:
+    print("Pilihan tidak valid")
+    exit()
+#Crust Pizza
+if Crust_Pizza == "PAN" :
+    harga_crust = 0
+elif Crust_Pizza == "Stuffed crust cheese" :
+    harga_crust = 10000 
+elif Crust_Pizza == "Stuffed crust sausage" :
+    harga_crust = 14000
+elif Crust_Pizza == "Cheese bites" :
+    harga_crust = 12000
+elif Crust_Pizza == "Crown crust" :
+    harga_crust = 11000
+else:
+    print("Jenis Crust tidak valid.")
+    exit()   
