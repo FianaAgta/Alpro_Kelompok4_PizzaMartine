@@ -21,3 +21,6 @@ print("Personal                      GRATIS")
 print("Reguler                   Rp. 62.000")
 print("Large                     Rp. 94.000")
 print("Extra Large               Rp. 115.000 ")
+
+Size_Pizza = input("Pilih size pizza :")
+Ekstra_Cheese = input("Extra Fee Rp. 13.000 untuk Extra Cheese (Yes/No) : ")
